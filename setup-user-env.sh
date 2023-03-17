@@ -17,7 +17,7 @@ FONT_URLS[hack-nerd]=https://github.com/ryanoasis/nerd-fonts/releases/download/v
 USR_FONTDIR=$HOME/.fonts
 USR_BIN=$HOME/bin
 
-APT_PACKAGES=("curl" "git" "wget" "bat" "tmux" "fish" "dconf-cli" "unzip" "uuid-runtime" "ranger" "flatpak" "virt-manager" "qemu-system" "qemu-user" "python3-pip" "python3-virtualenv" "python3-ipython" "ugrep" "gdb" "gdbserver" "build-essential" "telegram-desktop" "wireguard")
+APT_PACKAGES=("curl" "htop" "git" "wget" "bat" "tmux" "fish" "dconf-cli" "unzip" "uuid-runtime" "ranger" "flatpak" "virt-manager" "qemu-system" "qemu-user" "python3-pip" "python3-virtualenv" "python3-ipython" "ugrep" "gdb" "gdbserver" "build-essential" "telegram-desktop" "wireguard")
 FLATPACK_PACKAGES=("com.github.zadam.trilium" "com.github.Eloston.UngoogledChromium" "org.ghidra_sre.Ghidra")
 
 install_apt_packages() {
