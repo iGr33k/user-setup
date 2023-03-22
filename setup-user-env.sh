@@ -80,7 +80,7 @@ install_dot_files() {
 
 	wget ${SBINS_URLS[nvim]} -O $USR_BIN/nvim && chmod +x $USR_BIN/nvim
 
-	curl -sLf https://spacevim.org/install.sh | bash
+	# curl -sLf https://spacevim.org/install.sh | bash
 
 	cd
 	git clone https://github.com/gpakosz/.tmux.git
