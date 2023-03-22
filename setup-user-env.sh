@@ -46,7 +46,7 @@ install_docker(){
 
 
 install_flatpak_packages() {
-	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+	sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 	for x in ${!FLATPACK_PACKAGES[@]}
 	do 
 		sudo flatpak install flathub -y --noninteractive ${FLATPACK_PACKAGES[$x]}
